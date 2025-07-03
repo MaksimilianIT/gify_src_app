@@ -1,6 +1,6 @@
 Although most of the requirements have been implemented with success, two optional bonus features were not fulfilled because of the time priority and technical scope:
 
-    Page Navigation Separation:
+    ## Page Navigation Separation:
     Instead of using a centralized routing system such as go_router, the navigation was done inline with Navigator.push. Although the current implementation works perfectly, adding a specialist in navigation coordination would be possible at the cost of reorganizing screen transitions. This was taken into consideration and postponed to keep the focus on the core features completion.
 
     Network Availability Management:
