@@ -1,7 +1,5 @@
-Although most of the requirements have been implemented with success, two optional bonus features were not fulfilled because of the time priority and technical scope:
+Page navigation
+I applied Navigator.push to navigate between pages, and it is perfectly okay, but I also discovered that the navigation can be approached more professionally with such tools as go_router. I researched it, but I still did not know enough on how to get it to work correctly yet. I would have to spend some additional time to do it and it could potentially break what I already had working, so I left it out.
 
-Page Navigation Separation:
-Instead of using a centralized routing system such as go_router, the navigation was done inline with Navigator.push. Although the current implementation works perfectly, adding a specialist in navigation coordination would be possible at the cost of reorganizing screen transitions. This was taken into consideration and postponed to keep the focus on the core features completion.
-
-Network Availability Management:
-I would utilize the connectivity_plus package to check the network and give feedback to the user in offline mode. This feature was not however integrated due to time limitations and focus of core functionality and UI polish. The application now presupposes the internet connection to make Giphy API requests.
+Checking the network for availability
+I have read about the connectivity_plus package to determine whether the device is connected to the internet. I wanted to display a message when the internet is off, but I did not know how to relate it to my current app state. I would have added this afterwards, but I didn't have enough time to do so and ensure that the main app was functioning well first.
