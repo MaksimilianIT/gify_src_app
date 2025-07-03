@@ -1,16 +1,5 @@
-# gifapp
+Although most of the requirements have been implemented with success, two optional bonus features were not fulfilled because of the time priority and technical scope:
 
-A new Flutter project.
+    Page Navigation Separation: Instead of using a centralized routing system such as go_router, the navigation was done inline with Navigator.push. Although the current implementation works perfectly, adding a specialist in navigation coordination would be possible at the cost of reorganizing screen transitions. This was taken into consideration and postponed to keep the focus on the core features completion.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Network Availability Management: I would utilize the connectivity_plus package to check the network and give feedback to the user in offline mode. This feature was not however integrated due to time limitations and focus of core functionality and UI polish. The application now presupposes the internet connection to make Giphy API requests.
