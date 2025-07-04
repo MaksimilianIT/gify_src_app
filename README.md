@@ -5,3 +5,5 @@ I applied Navigator.push to navigate between pages, and it is perfectly okay, bu
 Checking the network for availability
 
 I have read about the connectivity_plus package to determine whether the device is connected to the internet. I wanted to display a message when the internet is off, but I did not know how to relate it to my current app state. I would have added this afterwards, but I didn't have enough time to do so and ensure that the main app was functioning well first.
+
+flutter version: 3.8.1.
